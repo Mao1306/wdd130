@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+  --primary-color: #0000f5;
+  --secondary-color: #6c757d; 
+  --text-color: #000000; 
+  --link-color: #ff0000; 
+}
+
+
+body {
+  font-family: "Bona Nova SC";
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Limiting the width of the page */
+.container {
+  max-width: 1200px; /* Adjust as per your design */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Social media links */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: var(--secondary-color);
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+
+.hero {
+    position: relative;
+    right: 0;
+    text-align: left;
+    color: #f1fd83;
+  }
+
+.hero img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.hero article {
+    position: relative;
+    left: 0px;
+    z-index: 1; 
+    max-width: 800px; 
+    padding: 10px;
+
+  }
+
+h3 {
+    position:absolute;
+    top: 280px;
+    left: 800px;
+}

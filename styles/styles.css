@@ -50,6 +50,8 @@
   
   main {
     max-width: 840px;
+    grid-column: 2 / 3;
+    margin: 1 rem;
   }
   
   aside {
@@ -84,11 +86,7 @@
     display: grid;
     align-items: center; 
   }
-  
-  main {
-    grid-column: 2 / 3;
-    margin: 1 rem; 
-}
+
   aside {
     width: 20rem;
     position: relative;

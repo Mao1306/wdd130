@@ -139,3 +139,16 @@ h3 {
   top: 280px;
   left: 800px;
 }
+
+b {
+  position:absolute;
+  top: 30px;
+  left: 490px;
+  color: #f50000;
+  width: 77px;
+    height: 30px;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(4, 0, 243);
+    float: center;
+}

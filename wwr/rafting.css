@@ -17,7 +17,7 @@ body {
 
 /* Limiting the width of the page */
 .container {
-    max-width: 1200px; /* Adjust as per your design */
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -84,7 +84,7 @@ a:hover {
 
 section {
     padding: 20px;
-    background-color: #fff; /* Example background color */
+    background-color: #fff;
     margin-bottom: 20px;
 }
 

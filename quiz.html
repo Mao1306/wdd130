@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS Quiz</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  <h1>HTML and CSS Quiz</h1>
+
+  <form action="submit_quiz.php" method="post">
+    <div>
+      <label for="q1">Question 1: What does HTML stand for?</label><br>
+      <input type="text" id="q1" name="q1" required>
+    </div>
+    
+    <div>
+      <label for="q2">Question 2: Explain the purpose of the class attribute in HTML.</label><br>
+      <textarea id="q2" name="q2" rows="4" required></textarea>
+    </div>
+    
+    <div>
+      <label for="q3">Question 3: Which of the following is NOT a valid CSS unit of measurement?</label><br>
+      <select id="q3" name="q3" required>
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="px">px (pixels)</option>
+        <option value="cm">cm (centimeters)</option>
+        <option value="in">in (inches)</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="q4">Question 4: How many levels of headings are available in HTML?</label><br>
+      <input type="number" id="q4" name="q4" required>
+    </div>
+    
+    <button type="submit">Submit Quiz</button>
+  </form>
+
+</body>
+</html>

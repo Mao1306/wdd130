@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --primary-color: #0000f5;
+    --secondary-color: #6c757d;
+    --text-color: #000000;
+    --link-color: #ff0000;
+    --background-color: #f4f4f4;
+    --footer-background-color: #333;
+    --footer-text-color: #fff;
+}
+
+body {
+    font-family: "Bona Nova SC", sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--header-background-color);
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 255, 0.1);
+  text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+    text-align: left;
+    color: #000000;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero article {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.image-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.image-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.image-list li {
+    flex: 0 0 auto;
+}
+
+.image-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    padding: 10px;
+    text-align: center;
+}
+
+footer .sociallinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+    color: var(--footer-text-color);
+}
+
+footer .sociallinks img {
+    max-width: 100%;
+    height: auto;
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.employee {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.employee img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.employee p {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.address {
+    background-color: rgba(173, 216, 230, 0.39);
+    border: 2px solid darkblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}

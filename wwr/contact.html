@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.jpeg" alt="logo" width="200">
+        <nav>
+            <a href="site-plan-rafting.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+    </nav> 
+        
+    </header>
+    
+    <main>
+        <h1>Contact us!</h1>
+
+        <h2>Map</h2>
+
+        <c>Dry Oar</c>
+        <d>Phone: 321 8628856</d>
+        <e>Email: <a href="dryoar@gmail.com">dry oar business</a></e>
+        <div class="map">
+          <div class="margen">Rafting isn't just an adventure; it's a journey of teamwork, adrenaline, and nature's beauty. At Dry Oar, we specialize in creating thrilling experiences that bond teams and create unforgettable memories. Our expert guides ensure safety while navigating the rapids, fostering a deep respect for nature and promoting sustainable practices. Join us for an adventure that connects you with the great outdoors and leaves a lasting impact.</div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20438.198391786824!2d-73.79745911552965!3d5.54355692591948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e41cb00aa4b347f%3A0xe0b0d6cc59833acc!2sR%C3%ADo%20Suarez!5e0!3m2!1ses-419!2sco!4v1721862034839!5m2!1ses-419!2sco" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+            </iframe>
+        </div>
+
+
+        
+    </main>
+    <h5>Employees</h5>
+    <div class="employees">
+        <div class="employee">
+          <img src="images/director general.jpeg" alt="Employee 1">
+          <p>Juliana Gonzalez<br>(Managing Director)</p>
+        </div>
+        <div class="employee">
+          <img src="images/director operaciones.jpeg" alt="Employee 2">
+          <p>Santiago Marin<br>(Director of operations)</p>
+        </div>
+        <div class="employee">
+          <img src="images/guia.jpeg" alt="Employee 3">
+          <p>Miguel Sanabria<br>(Rafting Guide)</p>
+        </div>
+        <div class="employee">
+            <img src="images/marketing.jpeg" alt="Employee 4">
+            <p>Juan David Herrera<br>(Marketing Leader)</p>
+          </div>
+          <div class="employee">
+            <img src="images/mantenimiento.jpeg" alt="Employee 5">
+            <p>Samuel Duque<br>(Mantenance Leader)</p>
+          </div>
+      </div>
+      <div class="container">
+
+        <h4>Contact us!!!!</h4>
+
+        <form action="submit.php" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+    
+          <div class="form-group">
+            <label>Purpose of Message:</label><br>
+            <label class="radio-label">
+              <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+              General Inquiry
+            </label><br>
+            <label class="radio-label">
+              <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+              Reservation Question
+            </label><br>
+            <label class="radio-label">
+              <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+              Website Suggestion
+            </label><br>
+          </div>
+    
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+    
+          <div class="form-group">
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+            <label for="newsletter">Subscribe me to the monthly newsletter</label>
+          </div>
+    
+          <input type="submit" class="submit-btn" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
